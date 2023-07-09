@@ -1,0 +1,26 @@
+body {
+  font-family: "arial", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container {
+  height: 400vh;
+  text-align: center;
+}
+
+.image-wrapper {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+#svgWrapper {
+  position: absolute;
+  top: 11%;
+  left: 24%;
+  z-index: 1;
+}
